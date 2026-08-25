@@ -1,0 +1,21 @@
+<?php
+
+$linha = 1;
+$maxlinhas = 4;
+while($linha <= $maxlinhas){
+    $contador = 0;
+     $coluna = 1;
+     while($contador < $linha){
+         $contador ++;
+         echo "$coluna";
+         $coluna ++;
+}$linha ++;
+echo "\n";
+
+}
+?>
+
+// 1
+   12 
+   123
+   1234
