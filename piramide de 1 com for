@@ -1,0 +1,11 @@
+<?php
+$coluna = 1;
+for($linha = 1; $linha <= 3; $linha ++){   
+     echo "$coluna";
+     echo "\n";
+     $coluna = $coluna."1"; 
+}
+//1
+  11
+  111
+?>
