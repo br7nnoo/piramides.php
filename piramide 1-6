@@ -1,0 +1,22 @@
+<?php
+
+$linha = 1;
+$coluna = 1;
+$maxlinhas = 3;
+
+while($linha <= $maxlinhas){
+    $contador = 0;
+    while($contador < $linha){
+        echo "$coluna";
+        $coluna ++;
+        $contador ++;
+        
+    }
+    echo "\n";
+    $linha ++;
+}
+//1
+  23
+  456
+
+?>
