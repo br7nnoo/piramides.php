@@ -1,0 +1,20 @@
+<?php
+
+$linha = 1;
+$maxlinhas = 4;
+
+while($linha <= $maxlinhas){
+    $contador = 0;
+    while($contador < $linha){
+        echo "$linha";
+        $contador ++;
+    }
+    echo "\n";
+    $linha ++;
+}
+?>
+
+// 1
+   22 
+   333
+   4444
