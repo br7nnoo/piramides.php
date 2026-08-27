@@ -1,0 +1,15 @@
+<?php
+$coluna = 1;
+$maxlinhas = 3;
+for($linha = 1; $linha <= $maxlinhas; $linha ++){
+        for($contador = 0; $contador < $linha; $coluna ++){
+        $contador ++;
+        echo "$coluna";
+        }
+        echo "\n";
+}
+?>
+
+// 1
+   23
+   456
