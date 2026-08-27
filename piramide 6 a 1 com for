@@ -1,7 +1,7 @@
 <?php
 $coluna = 6;
-$maxlinhas = 1;
-for($linha = 3; $linha >= $maxlinhas; $linha --){
+$minlinhas = 1;
+for($linha = 3; $linha >= $minlinhas; $linha --){
         for($contador = 0; $contador < $linha; $coluna --){
         $contador ++;
         echo "$coluna";
